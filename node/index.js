@@ -1,6 +1,9 @@
-const fs = require('fs')
-console.log('Codespace created successfully...')
-console.log('Hello, user')
-fs.readFile('./new.txt',(err,data)=>{
-    console.log(data)
-})
+import fs from 'fs';
+
+fs.readFile('./node/new.txt', 'utf8', (err, data) => {
+  if (err) {
+    console.error('Error reading the file:', err);
+    return;
+  }
+  console.log(data);
+});

@@ -1,11 +1,12 @@
 {
-  "name": "codespace",
+  "name": "node",
   "version": "1.0.0",
-  "description": "Playing with codespace",
+  "description": "node js",
   "main": "index.js",
+  "type" : "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mayank",
+  "author": "mayank",
   "license": "ISC"
 }

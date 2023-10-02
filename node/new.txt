@@ -1,1 +1,1 @@
-Text read from a txt file.
+Hello kitties.
